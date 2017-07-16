@@ -1,0 +1,26 @@
+{
+    "name": "xiaochengfu/yii2-rbac-plus",
+    "description": "yii2权限控制自定义升级版，yii2-rbac-plus可以适应复杂的权限控制",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "support": {
+        "issues": "https://github.com/xiaochengfu/yii2-rbac-plus/issues",
+        "source": "https://github.com/xiaochengfu/yii2-rbac-plus"
+    },
+    "authors": [
+        {
+            "name": "houpeng",
+            "email": "xcf-hp@Foxmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "xiaochengfu\\rbacPlus\\": ""
+        }
+    }
+}
