@@ -307,7 +307,7 @@ class DbManager extends Component
             ];
         }else{
             $condition = [
-                'role_id' => $row['user_id'],
+                'user_id' => $row['user_id'],
                 'permission' => $action
             ];
         }
